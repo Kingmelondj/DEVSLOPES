@@ -1,0 +1,39 @@
+
+table, th, tr, td {
+  border: 5px solid lightcoral;
+  border-radius: 10px;
+  width: 50%;
+ }
+ 
+ th{
+  font-size:40px;
+  color: rgb(246, 245, 246);
+  background-color: lightcoral;
+  border-radius: 10px;
+
+ }
+ td {
+  padding: 0 10px 0px 0px;
+  font-size: 25px;
+  font-weight: 900;
+  border-radius: 10px;
+ }
+
+ tr {
+  border-radius: 10px;
+ }
+
+ img {
+  height: 250px;
+  width: 250px;
+  border-radius: 5%;
+  margin: 15px 15px 10px;
+ }
+
+ .favs{
+  color: red;
+ }
+
+ .notFavs{
+  color: blue;
+ }

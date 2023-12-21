@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Interests Survey Form</title>
+  </head>
+
+  <body>
+    <h1>Employee Interests Survey Form</h1>
+    <br><hr>
+    <form method="post">
+      <label for="name">Name:</label>
+      <input id="name" name="name" type="text" placeholder="Enter your name" required><br><br>
+      <label for="department">Department:</label>
+      <input id="department" name="department" type="text" placeholder="Enter your department" required>
+      <br><br>
+      <label for="about">Tell us about yourself:</label><br>
+      <textarea id="about" name="about" rows="5" cols="30"></textarea><br><br>
+      <label for="exercise">Do you exercise at home?</label>
+      <input id="exerciseYes" name="exercise" type="radio" value="yes">
+      <label for="exerciseYes">Yes</label>
+      <input id="exerciseNo" name="exercise" type="radio" value="no">
+      <label for="exerciseNo">No</label>
+      <br><br>
+      <label for="reading">How do you like to read about your favorite topics?</label><br><br>
+      <input type="checkbox" id="mobile" name="mobile" value="mobile">
+      <label for="mobile">Phone Apps</label>
+      <input type="checkbox" id="online" name="online" value="online">
+      <label for="online">Online</label>
+      <input type="checkbox" id="books" name="books" value="books">
+      <label for="mobile">Books</label>
+      <input type="checkbox" id="magazines" name="magazines" value="magazines">
+      <label for="magazines">Magazines</label>
+      <label for="movieGenre">What is your favorite movie genre?</label>
+      <select name="movieGenre" id="movieGenre">
+        <option value="" disabled selected hidden>Choose...</option>
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+        <option value="romance">Romance</option>
+        <option value="drama">Drama</option>
+        <option value="fantasy">Fantasy</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Submit Form">
+    </form>
+  </body>
+</html>

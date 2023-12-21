@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+  </head>
+
+  <form>
+    <h1>Registration Form</h1>
+    <hr>
+    <p>Please fill out this form.</p>
+      <label for="name">First Name</label><br>
+      <input id="name" type="text" name="First-Name" required/><br><br>
+      <label for="last-name">Last Name</label><br>
+      <input id="last-name" name="last-name" type="text" required><br><br>
+      <label for="email">Enter Email</label><br>
+      <input id="email" name="email" type="email" required/><br><br>
+      <label for="password">Create Password</label><br>
+      <input id="password" name="password" type="password"
+      pattern="[a-z0-5]{8,}" required/><br><br>
+    <hr>
+    <h3>Personal Info.</h3><br>
+    <label for="date">Date of birth</label><br>
+    <input id="date" name="date" type="date"><br><br>
+    <legend>Gender</legend><br>
+      <input type="radio" id="male" name="male" value="Male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="female" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="other" value="other">
+      <label for="other">Other</label>
+    <br><br>
+    <label for="phone">Telephone</label><br>
+    <input id="phone" name="phone" type="tel" maxlength="9" size="9"/>
+    <br><br>
+    <label for="income">Annual Income</label><br>
+    <select id="income" name="income">
+      <option value="less">Less than $40k</option>
+      <option value="less">More than $40k</option>
+    </select>
+    <br><br>
+    <label for="size">Household Size</label><br>
+    <input id="size" name="size" type="size">
+    <br><br>
+    <hr>
+    <label for="profile-picture">Upload a Profile Picture</label><br>
+    <input id="profile-picture" name="file" type="file">
+    <br><br>
+    <label for="referrer">How did you hear about us?</label><br>
+    <select id="referrer" name="referrer">
+      <option value="">(Select one)</option>
+      <option value="1">Internet</option>
+      <option value="2">Newspaper</option>
+      <option value="3">Other</option>
+    </select>
+    <br><br>
+    <label for="terms-and-conditions"
+      <input class="in-line" id="terms-and-conditions"
+      type="checkbox" required name="terms-and-conditions"/> I accept the
+      <a href="terms and conditions">terms and conditions</a>
+   </label>
+   <br><br>
+   <input type="submit" value="Submit"/>
+  </form>
+  </body>
+</html>

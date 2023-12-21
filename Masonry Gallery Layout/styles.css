@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  
+}
+
+div{
+  border: 2px solid rgb(83, 55, 55);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 50px;
+  grid-template-rows: 50px 50px 20px 70px 100px;
+  gap: 10px;
+  border: 5px solid rgb(174, 81, 81);
+  background-color: rgb(174, 81, 81);
+}
+
+.pic1{
+  grid-column: 1/5;
+  grid-row:1/3;
+  border-radius: 2px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/71084bd8-8264-444b-a6a6-41c8ca39f214/dfi1oyk-8c1ed288-0fd8-4647-a0a3-c743258b9d72.jpg/v1/fit/w_474,h_466,q_70,strp/naruto_panel__57__by_mangaanimefreakss_dfi1oyk-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDY2IiwicGF0aCI6IlwvZlwvNzEwODRiZDgtODI2NC00NDRiLWE2YTYtNDFjOGNhMzlmMjE0XC9kZmkxb3lrLThjMWVkMjg4LTBmZDgtNDY0Ny1hMGEzLWM3NDMyNThiOWQ3Mi5qcGciLCJ3aWR0aCI6Ijw9NDc0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.LqVjK8JcHY_K1vEP8gjFi-dfGfCs5hAJe_V26rsVMMU);
+  position: center;
+  background-size: cover;
+}
+
+.pic2{
+  grid-column: 3/5;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/96/7a/94/967a94f51f1ec79c5b86c40b4bca257f.jpg);
+  position: relative;
+  background-size: cover;
+  background-position-y: 290px;
+  background-size: ;
+}
+
+.pic3{
+  grid-column: 3/5;
+  grid-row: 4/6;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/8f/92/d3/8f92d3ded4bc4e7a3f65000bbb716be0.jpg);
+  position: center;
+  background-size: cover;
+} 
+
+  .pic4{
+  grid-column: 1/3;
+  grid-row: 3/6;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/52/41/ae/5241aee3c98f64925d281dfd8347b5d6.jpg);
+  background-position: ;
+  position: center;
+  background-size: cover;
+}
+
+  .pic5{
+  grid-column: 1/5;
+  grid-row:6/14;
+  border-radius: 2px;
+  background-image: url(https://static.wikia.nocookie.net/cdecb668-7c73-459d-83e3-1b16cef97e50);
+  position: center;
+  background-size: cover;
+}
+
+.pic6{
+  grid-column: 5/8;
+  grid-row:1/6;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/originals/54/96/ce/5496cea99b29c72cc4cc7a960cebb33e.jpg);
+  position: center;
+  background-size: cover;
+}
+
+.pic7{
+  grid-column: 8/10;
+  grid-row:1/3;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/85/83/a4/8583a4273ddcd2c7c3f63fd5ee4a3b25.jpg);
+  position: center;
+  background-size: cover;
+}
+
+.pic8{
+  grid-column: 8/10;
+  grid-row:3/6;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/29/00/49/2900498b891f8264eaa382fa6b362158.jpg);
+  position: relative;
+  background-position-x: -10px;
+  background-size: cover;
+}
+
+.pic9{
+  grid-column: 5/10;
+  grid-row:6/14;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/9e/c4/f1/9ec4f1faacf449bdc0ddb4c9561fcbdf.jpg);
+  position: relative;
+  background-position-y:  -70px;
+  background-size: cover;
+}
+
+.pic10{
+  grid-column: 10/16;
+  grid-row:1/3;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/c8/92/a3/c892a39db3ad0702e5b130e9875fe2b2.jpg);
+  background-position-y: 110px;
+  position: relative;
+  background-size: cover;
+}
+
+.pic11{
+  grid-column: 10/11;
+  grid-row:3/4;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/0a/89/ce/0a89ceef83d3c7c063ca5b2150331767.jpg);
+  position: relative;
+  background-position-y: 30px;
+  background-size: cover;
+}
+
+.pic12{
+  grid-column: 11/16;
+  grid-row:3/4;
+  border-radius: 2px;
+  background-image: url(https://pbs.twimg.com/media/FJfWZoAXEAM5FT-.jpg);
+  position: relative;
+  background-position-y: 105px;
+  background-size: cover;
+}
+
+.pic13{
+  grid-column: 10/16;
+  grid-row:4/6;
+  border-radius: 2px;
+  background-image: url(https://pm1.aminoapps.com/6349/440b57efc539f5f0f769bf301a9ad313d7f97b3e_hq.jpg);
+  position: center;
+  background-size: cover;
+}
+
+.pic14{
+  grid-column: 10/16;
+  grid-row:6/14;
+  border-radius: 2px;
+  background-image: url(https://i.pinimg.com/564x/8f/54/b4/8f54b493100a11238818b915aaac00cb.jpg);
+  position: relative;
+  background-position-y: 265px;
+  background-size: cover;
+}
+

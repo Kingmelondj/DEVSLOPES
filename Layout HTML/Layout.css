@@ -1,0 +1,242 @@
+*{
+  color: #c1aa76;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.myImage{
+  position: relative;
+  right: 875px;
+  bottom: -100px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: -90px;
+}
+.myName{
+  position: relative;
+  right: 750px;
+  bottom: -10px;
+}
+.followBttn{
+  position: relative;
+  right: 755px;
+  top: 15px;
+  height: 50px;
+  width: 100px;
+}
+.h1Bmth{
+  position: relative;
+  margin-top: -90px;
+  margin-bottom: 20px;
+}
+.topnav{
+  font-size: 25px;
+  background-color: #333;
+  overflow: hidden; 
+  padding: 0;
+  width: 100%;
+  border-color: #000000;
+  border-style: outset;
+  border-width: 5px;
+}
+header{
+  padding: 15px;
+  background-color: #c1aa76;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+body{
+  background-color: #0f0808;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Smooch', cursive;
+}
+h1{
+  font-size: 65px;
+  margin-top: 20px;
+}
+h2{
+  font-size: 40px;
+  margin-bottom: 600px;
+  text-align: left;
+  margin-left: 275px;
+ }
+.container{
+  height: 600px;
+}
+.h2Recent{
+  position: relative;
+  margin-top: -30px;
+}
+.recent{
+  margin-top: -645px;
+  margin-bottom: 900px;
+  margin-left: 555px;
+  position:relative;
+  font-size: 30px;
+  text-align: center;
+}
+.recent-paragraph{
+  margin-top: -475px;
+  margin-left: 805px;
+  position: relative;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  color: rgb(224, 223, 223);
+  left: -5px;
+  bottom: 415px;
+}
+article{
+  font-size: 30px;
+  padding: 20px;
+  text-align:left;
+  text-indent: 0%;
+  line-height: 1.5;
+  color:  #c1aa76;
+}
+.album-cover{
+  height: 200px;
+  position: absolute;
+  left: 820px;
+  bottom: 180px;
+  border-color: #c1aa76;
+  border-style: inset;
+  border-width: 5px;
+}
+.album-cover1{
+  height: 200px;
+  position: absolute;
+  left: 1290px;
+  bottom: 180px;
+  border-color: #c1aa76;
+  border-style: inset;
+  border-width: 5px;
+}
+.album-cover2{
+  height: 200px;
+  position: absolute;
+  left: 1535px;
+  bottom: 180px;
+  border-color: #c1aa76;
+  border-style: inset;
+  border-width: 5px;
+}
+.album-cover3{
+  height: 200px;
+  position: absolute;
+  left: 1060px;
+  bottom: 180px;
+  border-color: #c1aa76;
+  border-style: inset;
+  border-width: 5px;
+}
+
+.teardropsHeader{
+  margin-top: 30px;
+  margin-bottom: 500px;
+  margin-left: 890px;
+  position: relative;
+}
+.dearDiaryHeader{
+  margin-top: 20px;
+  margin-bottom: 500px;
+  margin-left: 890px;
+  position: relative;
+}
+.music-video1{
+  border-color: #c1aa76;
+  border-style: inset;
+  border-width: 5px;
+  width: 700px;
+  height: 530px;
+  position: absolute;
+  border-radius: 5px;
+  left: 35px;
+  bottom: 180px;
+}
+.music-video2{  
+  border-color: #c1aa76;
+  border-style: inset;
+  position: absolute;
+  right: 566px;
+  bottom: -1120px;
+  border-width: 15px;
+}
+.music-video3{
+  border-color: #AE9E7B;
+  border-style:inset;
+  position: absolute;
+  right: 566px;
+  bottom: -3360px;
+  border-width: 15px;
+} 
+div{
+  padding: 20px;
+}
+div{
+  background-image: url("https://external-preview.redd.it/mD3aaWZ88gJ3vqrnS_MVdCPc2hAGTVkX8Haa8IU3hq4.jpg?width=1080&crop=smart&auto=webp&s=e6697b0f36e2dc79c0c938379707d769cfcddeb9")
+}
+section.section-article{
+  background-image: url("https://i.redd.it/3zud92017o961.png")
+}
+section.section-article{
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+section.section-article{
+  opacity: 0.8;
+}
+.youtube-logo{
+  position: absolute;
+  left: 100px;
+  font-size: 64px;
+  background-image: none;
+}
+
+.instagram-logo{
+  position: absolute;
+  left: 180px;
+  font-size: 64px;
+  background-image: none;
+}
+
+.facebook-logo{
+  position:absolute;
+  left: 255px;
+  font-size: 64px;
+  background-image: none;
+}
+
+.twitter-logo{
+  position: absolute;
+  left: 330px;
+  font-size: 64px;
+  background-image: none;
+}
+
+footer{
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+.address{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 725px;
+  position:absolute;
+}
+
+.section-footer{
+  margin-bottom: 10px;
+}
+
+
+
+
+

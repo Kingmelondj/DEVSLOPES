@@ -1,0 +1,17 @@
+
+#nav_section {
+  vertical-align: baseline;
+  padding-right: 50px;
+  padding-top: 0px;
+}
+#nav_ul {
+  white-space: nowrap;
+  color: red;
+}
+#main_section {
+  width: 100%;
+}
+img{
+  height:50px;
+  width: 200px;
+}
